@@ -4,11 +4,15 @@
   "description": "Advent of Code",
   "repository": "github:MikeCoats/advent-of-code",
   "scripts": {
+    "2018": "npm run 2018-01",
+    "2018-01a": "node 2018/01-a.js",
+    "2018-01b": "node 2018/01-b.js",
+    "2018-01": "npm run 2018-01a && npm run 2018-01b",
     "2019": "npm run 2019-01",
     "2019-01a": "node 2019/01-a.js",
     "2019-01b": "node 2019/01-b.js",
     "2019-01": "npm run 2019-01a && npm run 2019-01b",
-    "all": "npm run 2019"
+    "all": "npm run 2018 && npm run 2019"
   },
   "keywords": [],
   "author": "Mike Coats <i.am@mikecoats.com> (https://mikecoats.com/)",
