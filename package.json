@@ -1,9 +1,14 @@
 {
   "name": "advent-of-code",
-  "version": "0.0.0",
+  "version": "2019.12.01-a",
   "description": "Advent of Code",
   "repository": "github:MikeCoats/advent-of-code",
-  "scripts": {},
+  "scripts": {
+    "2019": "npm run 2019-01",
+    "2019-01a": "node 2019/01-a.js",
+    "2019-01": "npm run 2019-01a",
+    "all": "npm run 2019"
+  },
   "keywords": [],
   "author": "Mike Coats <i.am@mikecoats.com> (https://mikecoats.com/)",
   "license": "MPL-2.0"
