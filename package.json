@@ -1,12 +1,13 @@
 {
   "name": "advent-of-code",
-  "version": "2019.12.01-a",
+  "version": "2019.12.01",
   "description": "Advent of Code",
   "repository": "github:MikeCoats/advent-of-code",
   "scripts": {
     "2019": "npm run 2019-01",
     "2019-01a": "node 2019/01-a.js",
-    "2019-01": "npm run 2019-01a",
+    "2019-01b": "node 2019/01-b.js",
+    "2019-01": "npm run 2019-01a && npm run 2019-01b",
     "all": "npm run 2019"
   },
   "keywords": [],
